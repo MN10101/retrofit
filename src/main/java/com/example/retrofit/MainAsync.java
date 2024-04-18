@@ -15,7 +15,7 @@ public class MainAsync {
         updatedUser.setName("Ali Najmeh");
         updatedUser.setEmail("ali@outlook.com");
 
-        Call<User> updateUserCall = apiService.updateUser(userIdToUpdate, updatedUser); // Fix method name
+        Call<User> updateUserCall = apiService.updateUser(userIdToUpdate, updatedUser);
         updateUserCall.enqueue(new Callback<User>() {
             @Override
             public void onResponse(Call<User> call, Response<User> response) {
