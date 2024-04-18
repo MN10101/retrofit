@@ -11,7 +11,7 @@ public class MainSync {
         ApiService apiService = RetrofitClient.getClient().create(ApiService.class);
 
         try {
-            Call<List<User>> call = apiService.getAllUsers(); // Call the method to fetch all users
+            Call<List<User>> call = apiService.getAllUsers();
             call.enqueue(new Callback<List<User>>() {
                 @Override
                 public void onResponse(Call<List<User>> call, Response<List<User>> response) {
