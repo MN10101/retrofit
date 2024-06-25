@@ -50,10 +50,6 @@ The project interacts with the following endpoints of the sample user API:
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Author: Mahmoud Najmeh
